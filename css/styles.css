@@ -1,0 +1,134 @@
+/******** Base Styles ********/
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 20px;
+}
+
+
+
+
+/******** Grid ********/
+
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+} 
+
+.half-width {
+    width: 600px;
+    float: left;
+}
+
+.third-width {
+    width: 360px;
+    float: left;
+}
+
+
+/******** Header ********/
+
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+#highlight {
+    color: #77a466;
+}
+
+nav {
+    margin-left: 20px;
+}
+
+nav ul li {
+    text-transform: uppercase;
+    text-decoration: none;
+    list-style: none;
+    display: inline-block;
+    color: #77a466;
+    font-size: 14px;
+    font-weight: 700;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+/******** About ********/
+
+#hero-image {
+    border-top: 4px solid #77a466;
+    border-bottom: 4px solid #77a466;
+}
+
+h2 {
+    text-transform: uppercase;
+    color: #77a466;
+    font-size: 18px;
+    padding-top: 10px;
+}
+
+#about p {
+    font-size: 16px;
+    padding-bottom: 20px;
+}
+
+/******** Special/Reviews/Contact ********/
+
+h3 {
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+
+#details ul  {
+    list-style: none;
+    color: #77a466;
+    padding-left: 0;
+}
+
+#details ul li {
+    padding-bottom: 15px;
+}
+
+.detail-border {
+    border-top: 1px solid #dedbdc;
+}
+
+#specials, #reviews {
+    border-right: 1px solid #dedbdc;
+    padding-top: 20px;
+}
+
+#reviews {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#contact {
+    padding-top: 20px;
+    padding-left: 30px;
+}
+
+
+/******** Footer ********/
+
+footer {
+    clear: both;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 30px;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+#fancy {
+    font-family: 'Charmonman', cursive;
+    color: #77a466;
+    text-transform: lowercase;
+}
+
+footer .full-width {
+    border-top: 1px solid #dedbdc;
+}
