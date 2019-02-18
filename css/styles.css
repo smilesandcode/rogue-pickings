@@ -101,14 +101,20 @@ h3 {
     padding-top: 20px;
 }
 
+#specials, #reviews, #contact {
+    padding-bottom: 40px;
+}
+
 #reviews {
     padding-left: 30px;
     padding-right: 30px;
+    height: 160px;
 }
 
 #contact {
     padding-top: 20px;
     padding-left: 30px;
+    /* float: right; */
 }
 
 
@@ -121,6 +127,7 @@ footer {
     padding-top: 30px;
     font-weight: 700;
     font-size: 16px;
+    border-top: 1px solid #dedbdc;
 }
 
 #fancy {
